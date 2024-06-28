@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import {FaSearch} from 'react-icons/fa';
-;
+
 function Header() {
   return (
     <header className='bg-slate-200 shadow-md'>
