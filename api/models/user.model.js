@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { type } from "os";
 
 const userSchema = new mongoose.Schema({
     userName: {
@@ -8,7 +7,7 @@ const userSchema = new mongoose.Schema({
         unique : true,
     },
     email: {
-        type : String,
+        type : String, 
         required : true,
         unique : true,
     },
@@ -20,4 +19,4 @@ const userSchema = new mongoose.Schema({
 
 const user = mongoose.model('User', userSchema);
 
-export default User;
+export default user;
